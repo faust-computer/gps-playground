@@ -1,0 +1,6 @@
+[manifest]
+path = gps-playground
+file = west.yml
+
+[zephyr]
+base = zephyr

@@ -1,0 +1,9 @@
+build/**
+build
+*.tmp
+.DS_Store
+.vscode
+.cache
+zephyr
+modules/**
+*.pyc
