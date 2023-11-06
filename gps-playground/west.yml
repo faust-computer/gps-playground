@@ -3,7 +3,7 @@ manifest:
   projects:
     - name: zephyr
       url: https://github.com/zephyrproject-rtos/zephyr
-      revision: v3.4.0
+      revision: v3.5.0
       path: zephyr
       west-commands: scripts/west-commands.yml
       import:
@@ -16,7 +16,7 @@ manifest:
       revision: main
       path: modules/lib/st25dv
 
-    - name: trezor-crypto
+    - name: gps-sam-m10q
       url: https://github.com/faust-computer/gps-sam-m10q
       revision: main
       path: modules/lib/gps-sam-m10q

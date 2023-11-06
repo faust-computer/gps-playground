@@ -26,7 +26,28 @@ pip install west
 ```
 ### Usage
 
+**setting up zephyr env**
 ```
+# in root directory
+west update
+
+# now you can 'west build' inside of gps_playground
+cd gps_playground
+west build
+```
+
+**building and running**
+
+```
+# build for nucleo_l496zg
 west build -b nucleo_l496zg
+
+# build it locally
+west build -b qemu_x86 
+
+# build and run locally
+west build -b qemu_x86 --force -t run
+
+# flash
 west flash
 ```
